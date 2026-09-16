@@ -99,7 +99,7 @@ Examples include:
 The Material Flow visualization shows how different waste materials are distributed within the recorded data.
 
 <p align="center">
-  <img src="documentation/images/material_flow.png" width="850">
+  <img src="documentation/images/materials_flow.png" width="850">
 </p>
 
 ---
