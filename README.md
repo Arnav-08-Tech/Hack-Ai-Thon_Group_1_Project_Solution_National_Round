@@ -158,7 +158,7 @@ The architecture connects the user interface, waste-management system, local dat
 # 🔄 Application Workflow
 
 <p align="center">
-  <img src="documentation/diagrams/work_flow.png" width="750">
+  <img src="documentation/diagrams/work_flow.jpg" width="750">
 </p>
 
 The workflow represents the main process followed by the application from entering waste information to displaying the final results.
