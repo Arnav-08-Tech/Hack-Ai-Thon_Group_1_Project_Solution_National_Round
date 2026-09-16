@@ -132,7 +132,7 @@ Allows the user to enter the images of waste
 EcoMind AI can present useful sustainability-focused insights based on the recorded waste information.
 
 <p align="center">
-  <img src="documentation/images/sustanaibility.png" width="850">
+  <img src="documentation/images/sustainability.png" width="850">
 </p>
 
 These insights can help users understand:
