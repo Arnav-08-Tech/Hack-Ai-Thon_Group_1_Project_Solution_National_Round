@@ -83,7 +83,7 @@ It can display information such as:
 The most frequent toolbar which can reduce the time of opening different menu.
 
 <p align="centre">
-   <img src="documentation/images/quick_access_toolbar">
+   <img src="documentation/images/quick_access_toolbar.png" width="850">
 </p>
 
 ### 📈 Charts & Visualization
@@ -107,7 +107,7 @@ Examples include:
 Allows the user to see the time and weather with defined location(Patna)
 
 <p>
-  <img src="documentation/images/time">
+  <img src ="documentation/images/time.png" width="850">
 </p>
 ### ♻️ Material Flow
 
@@ -124,7 +124,7 @@ The Material Flow visualization shows how different waste materials are distribu
 Allows the user to enter the images of waste
 
 <p>
-  <img src="documentation/images/camera">
+  <img src="documentation/images/camera.png" width="850">
 </p>
 
 ### 💡 Sustainability Recommendations
