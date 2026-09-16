@@ -52,6 +52,8 @@ Users can record:
 * Quantity in kilograms
 * Recycling status
 * Description
+* Quick Access Toolbar
+* Weather, Location and Time
 
 Supported categories include:
 
@@ -76,6 +78,13 @@ It can display information such as:
 * Waste Reduction Score
 
 ---
+### Quick Access Toolbar
+
+The most frequent toolbar which can reduce the time of opening different menu.
+
+<p align="centre">
+   <img src="documentation/images/quick_access_toolbar">
+</p>
 
 ### 📈 Charts & Visualization
 
@@ -93,7 +102,13 @@ Examples include:
 * Material Flow / Distribution
 
 ---
+### Weather, and Time
 
+Allows the user to see the time and weather with defined location(Patna)
+
+<p>
+  <img src="documentation/images/time">
+</p>
 ### ♻️ Material Flow
 
 The Material Flow visualization shows how different waste materials are distributed within the recorded data.
@@ -103,6 +118,14 @@ The Material Flow visualization shows how different waste materials are distribu
 </p>
 
 ---
+
+### Camera 
+
+Allows the user to enter the images of waste
+
+<p>
+  <img src="documentation/images/camera">
+</p>
 
 ### 💡 Sustainability Recommendations
 
