@@ -106,7 +106,7 @@ Examples include:
 
 Allows the user to see the time and weather with defined location(Patna)
 
-<p>
+<p align="center">
   <img src ="documentation/images/time.png" width="850">
 </p>
 ### ♻️ Material Flow
@@ -123,7 +123,7 @@ The Material Flow visualization shows how different waste materials are distribu
 
 Allows the user to enter the images of waste
 
-<p>
+<p align = "center">
   <img src="documentation/images/camera.png" width="850">
 </p>
 
