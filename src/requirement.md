@@ -9,4 +9,4 @@ Pillow
 
 
 run this in terminal to install the required libraries
-pip install -r requirements.txt
+>>>pip install -r requirements.txt
