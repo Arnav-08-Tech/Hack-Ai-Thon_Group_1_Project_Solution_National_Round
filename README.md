@@ -63,7 +63,7 @@ Generate Recommendations
 The dashboard provides a centralized overview of waste-management activity.
 
 <p align="center">
-  <img src="documentation/image/materials_flow.png" width="850">
+  <img src="documentation/images/materials_flow.png" width="850">
 </p>
 
 It displays key information such as:
