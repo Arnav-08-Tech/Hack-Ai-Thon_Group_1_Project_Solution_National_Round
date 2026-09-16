@@ -109,7 +109,7 @@ The Material Flow visualization shows how different waste materials are distribu
 EcoMind AI can present useful sustainability-focused insights based on the recorded waste information.
 
 <p align="center">
-  <img src="documentation/screenshots/sustainability.png" width="850">
+  <img src="documentation/images/sustainability.png" width="850">
 </p>
 
 These insights can help users understand:
