@@ -206,29 +206,24 @@ The workflow represents the main process followed by the application from enteri
 ```text
 EcoMind-AI/
 │
-├── National_Project_2.py
-├── README.md
-├── requirements.txt
+|---src
+|    |--main.py
+|    |--requirement.txt
+|
+|---documentation
+|      |---project_documentation.md
+|      |---presentation.ppt
+|      |---screenshots
+|            |---dashboard.png
+|            |---add_waste.png
+|            |---waste_analytics
+|            |---recycling_track
+|            |---history.png
+|            |---bar_graph.png
+|            |---about.png
+|            |---waste_image_gallery.png
 │
-└── documentation/
-    │
-    ├── Project_Documentation.md
-    ├── Presentation.pptx
-    │
-    ├── diagrams/
-    │   ├── workflow.png
-    │   └── system_architecture.png
-    │
-    ├── screenshots/
-    │   ├── dashboard.png
-    │   ├── add_waste.png
-    │   ├── waste_records.png
-    │   ├── charts.png
-    │   ├── material_flow.png
-    │   └── recommendations.png
-    │
-    └── references/
-        └── research_notes.md
+|----README.md
 ```
 
 ---
@@ -326,7 +321,10 @@ It contains:
 **Team:** Cyber Guardians
 
 ---
-
+---
+##Author
+ * Arnav Raj
+---
 <p align="center">
   🌱 <b>EcoMind AI</b>
   <br>
