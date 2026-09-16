@@ -124,7 +124,7 @@ The Material Flow visualization shows how different waste materials are distribu
 Allows the user to enter the images of waste
 
 <p align = "center">
-  <img src="documentation/images/camera.png" width="850">
+  <img src="documentation/images/camera.png" width="550">
 </p>
 
 ### 💡 Sustainability Recommendations
