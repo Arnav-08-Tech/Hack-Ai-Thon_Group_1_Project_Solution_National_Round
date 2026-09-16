@@ -1,340 +1,311 @@
 # 🌱 EcoMind AI
 
-### Intelligent Waste Management System
+## Intelligent Waste Management System
+
+<p align="center">
+  <img src="documentation/screenshots/dashboard.png" width="900">
+</p>
+
+<p align="center">
+  <b>Track Waste • Analyze Data • Improve Sustainability</b>
+</p>
+
+<p align="center">
+  A smart desktop application designed to help households and communities understand their waste and improve recycling habits.
+</p>
+
+---
+
+# 📌 Main Topic
+
+## **Smart Waste Management & Sustainability**
+
+Waste management is an important environmental challenge. People generate different types of waste every day, but it can be difficult to understand **where most waste is coming from, how much is being recycled, and where improvements can be made**.
+
+**EcoMind AI** provides a digital platform to record waste data, analyze it, visualize patterns, and generate sustainability-focused recommendations.
+
+---
+
+# 🎯 Project Objective
+
+EcoMind AI aims to:
+
+* 📝 Record daily waste
+* ♻️ Track recycled waste
+* 📊 Analyze waste patterns
+* 🔎 Identify high-waste categories
+* 📈 Visualize waste statistics
+* 💡 Provide sustainability recommendations
+* 💾 Store waste records locally
+* 🌍 Encourage better waste-management habits
+
+---
+
+# ✨ Key Features
+
+### 📝 Waste Management
+
+Users can record:
+
+* Date
+* Waste category
+* Quantity in kilograms
+* Recycling status
+* Description
+
+Supported categories include:
+
+**Food • Plastic • Paper • Glass • Metal • E-waste • Other**
+
+---
+
+### 📊 Dashboard
+
+The dashboard provides a quick overview of waste information.
 
 <p align="center">
   <img src="documentation/screenshots/dashboard.png" width="850">
 </p>
 
+It can display information such as:
+
+* Total Waste
+* Recycled Waste
+* Recycling Rate
+* Highest Waste Category
+* Waste Reduction Score
+
+---
+
+### 📈 Charts & Visualization
+
+Waste data can be represented through visual charts to make patterns easier to understand.
+
 <p align="center">
-  <b>Track waste • Analyze data • Improve sustainability</b>
+  <img src="documentation/screenshots/charts.png" width="850">
 </p>
 
----
+Examples include:
 
-## 📌 About the Project
-
-**EcoMind AI** is a Python-based desktop application designed to help households and communities record, analyze, and understand their waste.
-
-The system combines **PyQt6, SQLite, data visualization, and AI/ML concepts** in a single interactive application.
-
-Users can record waste, track recycling, view statistics, explore material flow, and receive sustainability recommendations.
+* Waste by Category
+* Recycling Statistics
+* Waste Trends
+* Material Flow / Distribution
 
 ---
 
-## 🎯 Problem Statement
+### ♻️ Material Flow
 
-Waste is generated every day, but people often have limited visibility into their own waste habits.
-
-Common problems include:
-
-* Difficulty tracking daily waste
-* Lack of awareness about high-waste categories
-* Poor visibility into recycling activity
-* Difficulty understanding waste patterns
-* Limited access to simple waste-analysis tools
-
-EcoMind AI provides a centralized platform to make this information easier to record and understand.
-
----
-
-## 💡 Our Solution
-
-EcoMind AI turns everyday waste records into useful information through a simple desktop interface.
-
-```text
-Record Waste
-     ↓
-Store Data
-     ↓
-Analyze Data
-     ↓
-Visualize Results
-     ↓
-Generate Recommendations
-```
-
----
-
-## ✨ Features
-
-### 🖥️ Interactive Dashboard
-
-The dashboard provides a centralized overview of waste-management activity.
+The Material Flow visualization shows how different waste materials are distributed within the recorded data.
 
 <p align="center">
-  <img src="documentation/images/materials_flow.png" width="850">
-</p>
-
-It displays key information such as:
-
-* Total waste
-* Recycled waste
-* Recycling rate
-* Highest waste category
-* Waste-reduction information
-* Waste statistics
-
----
-
-### 🗑️ Waste Tracker
-
-Users can add waste records using:
-
-* Date
-* Category
-* Weight
-* Recycling status
-* Description
-
-Supported categories:
-
-`Food` • `Plastic` • `Paper` • `Glass` • `Metal` • `E-waste` • `Battery Waste` • `Other`
-
-<p align="center">
-  <img src="screenshots/waste_tracker.png" width="850">
-</p>
-
----
-
-### 📊 Analytics
-
-The Analytics section converts stored records into charts and statistics.
-
-<p align="center">
-  <img src="screenshots/analytics.png" width="850">
-</p>
-
-It helps users understand:
-
-* Waste distribution
-* High-waste categories
-* Recycling activity
-* Waste patterns
-
----
-
-### 🧱 Material Flow
-
-Material Flow provides a visual representation of waste categories and their movement through the waste-management process.
-
-<p align="center">
-  <img src="screenshots/material_flow.png" width="850">
-</p>
-
----
-
-### 🤖 AI Core
-
-The **AI Core** provides the intelligent-analysis component of the application.
-
-It is designed to work with available waste data and support sustainability-related recommendations.
-
-<p align="center">
-  <img src="screenshots/ai_core.png" width="850">
+  <img src="documentation/images/material_flow.png" width="850">
 </p>
 
 ---
 
 ### 💡 Sustainability Recommendations
 
-The application provides practical suggestions based on recorded waste information.
-
-Recommendations can encourage:
-
-* Better recycling habits
-* Waste reduction
-* Responsible disposal
-* Greater environmental awareness
-
----
-
-### 🌙 Dark & Light Mode
-
-EcoMind AI supports both dark and light themes.
+EcoMind AI can present useful sustainability-focused insights based on the recorded waste information.
 
 <p align="center">
-  <img src="screenshots/dark_mode.png" width="410">
-  <img src="screenshots/light_mode.png" width="410">
+  <img src="documentation/screenshots/.png" width="850">
 </p>
 
+These insights can help users understand:
+
+* High-waste categories
+* Recycling opportunities
+* Waste-reduction areas
+* Sustainability actions
+
 ---
 
-### 🔊 Voice Output
-
-An optional voice-output feature provides **short notifications** when enabled.
-
-The feature can be controlled from the application settings.
-
----
-
-## ⚙️ How It Works
+# ⚙️ How EcoMind AI Works
 
 ```text
-                  USER
-                    │
-                    ▼
-             Enter Waste Data
-                    │
-                    ▼
-              Local Database
-                    │
-          ┌─────────┴─────────┐
-          ▼                   ▼
-      Analytics            AI Core
-          │                   │
-          ▼                   ▼
-        Charts        Recommendations
-          │                   │
-          └─────────┬─────────┘
-                    ▼
-                Dashboard
+👤 USER
+   ↓
+🖥️ PyQt6 User Interface
+   ↓
+📝 Enter Waste Details
+   ↓
+💾 Store Waste Records
+   ↓
+🗄️ SQLite Local Database
+   ↓
+⚙️ Data Processing & Analysis
+   ↓
+📊 Statistics + Charts
+   ↓
+💡 Insights & Recommendations
+   ↓
+👤 USER
 ```
 
 ---
 
-## 🛠️ Technologies Used
+# 🏗️ System Architecture
 
-| Technology       | Purpose                     |
-| ---------------- | --------------------------- |
-| Python           | Core application            |
-| PyQt6            | Desktop graphical interface |
-| SQLite           | Local data storage          |
-| Matplotlib       | Charts and visualization    |
-| AI / ML          | Intelligent analysis        |
-| Python Libraries | Supporting functionality    |
+<p align="center">
+  <img src="documentation/diagrams/system_architecture.png" width="1000">
+</p>
+
+The architecture connects the user interface, waste-management system, local database, data processing, visualization, analysis, and results.
 
 ---
 
-## 🚀 Installation
+# 🔄 Application Workflow
 
-### 1. Clone the Repository
+<p align="center">
+  <img src="documentation/diagrams/workflow.png" width="750">
+</p>
+
+The workflow represents the main process followed by the application from entering waste information to displaying the final results.
+
+---
+
+# 🛠️ Technology Stack
+
+| Technology      | Purpose                              |
+| --------------- | ------------------------------------ |
+| 🐍 Python       | Application logic                    |
+| 🖥️ PyQt6       | Desktop GUI                          |
+| 🗄️ SQLite      | Local data storage                   |
+| 📊 Pandas       | Data analysis, if used               |
+| 📈 Matplotlib   | Data visualization, if used          |
+| 🤖 Scikit-learn | ML analysis, if actually implemented |
+
+---
+
+# 📂 Project Structure
+
+```text
+EcoMind-AI/
+│
+├── National_Project_2.py
+├── README.md
+├── requirements.txt
+│
+└── documentation/
+    │
+    ├── Project_Documentation.md
+    ├── Presentation.pptx
+    │
+    ├── diagrams/
+    │   ├── workflow.png
+    │   └── system_architecture.png
+    │
+    ├── screenshots/
+    │   ├── dashboard.png
+    │   ├── add_waste.png
+    │   ├── waste_records.png
+    │   ├── charts.png
+    │   ├── material_flow.png
+    │   └── recommendations.png
+    │
+    └── references/
+        └── research_notes.md
+```
+
+---
+
+# 🚀 Installation & Setup
+
+### 1. Clone the repository
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone YOUR_GITHUB_REPOSITORY_URL
 ```
 
-### 2. Open the Project
+### 2. Open the project folder
 
 ```bash
 cd EcoMind-AI
 ```
 
-### 3. Install Dependencies
+### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Run the Application
+### 4. Run the application
 
 ```bash
-python main.py
+python National_Project_2.py
 ```
-
-> Replace `main.py` with the actual entry-point filename if necessary.
 
 ---
 
-## 📁 Project Structure
+# 💾 Data Storage
+
+EcoMind AI uses local data storage for maintaining waste records.
+
+Each record can contain:
 
 ```text
-EcoMind-AI/
-│
-├── main.py
-├── requirements.txt
-├── README.md
-│
-├── database/
-│   └── waste_data.db
-│
-├── assets/
-│   ├── images/
-│   └── icons/
-│
-├── screenshots/
-│   ├── dashboard.png
-│   ├── waste_tracker.png
-│   ├── analytics.png
-│   ├── material_flow.png
-│   ├── ai_core.png
-│   ├── dark_mode.png
-│   └── light_mode.png
-│
-└── docs/
-    └── project_report.pdf
+Date
+Category
+Quantity
+Recycling Status
+Description
 ```
+
+This allows the application to analyze previously recorded waste data.
 
 ---
 
-## 🧪 Example Workflow
+# 🌍 Environmental Impact
 
-```text
-Add Waste
-    ↓
-Select Category
-    ↓
-Enter Weight
-    ↓
-Select Recycling Status
-    ↓
-Save Record
-    ↓
-Database Updated
-    ↓
-Statistics Updated
-    ↓
-Charts Updated
-    ↓
-AI Analysis & Recommendations
-```
+EcoMind AI focuses on making waste information **visible, understandable, and actionable**.
+
+By understanding waste patterns and recycling behavior, users can identify areas where waste can potentially be reduced and recycling improved.
+
+> **Measure your waste. Understand your habits. Build a cleaner future.**
 
 ---
 
-## 🔮 Future Scope
+# 🔮 Future Scope
 
 Future versions could include:
 
-* Computer-vision waste classification
-* Smart-bin integration
-* IoT-based waste monitoring
-* Advanced machine-learning models
-* Mobile application
-* Cloud synchronization
-* Community-level waste analysis
-* Waste-generation prediction
+* 🤖 Advanced Machine Learning models
+* 📷 Image-based waste classification
+* 🔮 Waste-generation prediction
+* 📱 Mobile application
+* ☁️ Cloud synchronization
+* 👥 Community-level waste analysis
+* 📊 Advanced sustainability analytics
+* 🌐 Real-time environmental data
 
 ---
 
-## ⚠️ Limitations
+# 📚 Documentation
 
-* Waste information depends on user-entered data.
-* AI/ML functionality can be expanded with larger real-world datasets.
-* The current application is primarily designed for desktop use.
-* Recommendations depend on the available data.
+Detailed information about the project is available in the `documentation/` folder.
 
----
+It contains:
 
-## 👥 Team
-
-### Cyber Guardians
-
-**Project:** EcoMind AI — Intelligent Waste Management System
-
-A student project combining **Python, AI/ML concepts, data visualization, and environmental awareness**.
+📄 **Project Documentation**
+🎞️ **Presentation**
+🔄 **Workflow Diagram**
+🏗️ **System Architecture**
+📸 **Application Screenshots**
+📚 **Research References**
 
 ---
 
-## 🙏 Acknowledgements
+# 👥 Project
 
-We acknowledge the programming libraries, development tools, datasets, images, icons, and AI-assisted development resources used during development.
+### **EcoMind AI — Intelligent Waste Management System**
 
-External resources are credited according to their respective licenses and usage requirements.
+**Team:** Cyber Guardians
 
 ---
 
-## 🌍 Vision
-
-> **Track waste. Understand patterns. Build better habits.**
-
-EcoMind AI aims to demonstrate how technology can make everyday waste management more measurable, understandable, and actionable.
+<p align="center">
+  🌱 <b>EcoMind AI</b>
+  <br>
+  <i>Track Waste • Analyze Data • Improve Sustainability</i>
+</p>
