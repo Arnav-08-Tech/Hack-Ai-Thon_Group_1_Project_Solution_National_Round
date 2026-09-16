@@ -83,7 +83,7 @@ It can display information such as:
 The most frequent toolbar which can reduce the time of opening different menu.
 
 <p align="centre">
-   <img src="documentation/images/quick_access_toolbar.png" width="850">
+   <img src="documentation/images/quick_access_toolbar(2).png" width="850">
 </p>
 
 ### 📈 Charts & Visualization
@@ -91,7 +91,7 @@ The most frequent toolbar which can reduce the time of opening different menu.
 Waste data can be represented through visual charts to make patterns easier to understand.
 
 <p align="center">
-  <img src="documentation/screenshots/.png" width="850">
+  <img src="documentation/images/chart.png" width="850">
 </p>
 
 Examples include:
