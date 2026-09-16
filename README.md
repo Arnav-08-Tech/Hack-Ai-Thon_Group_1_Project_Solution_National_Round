@@ -82,7 +82,7 @@ It can display information such as:
 Waste data can be represented through visual charts to make patterns easier to understand.
 
 <p align="center">
-  <img src="documentation/screenshots/charts.png" width="850">
+  <img src="documentation/screenshots/.png" width="850">
 </p>
 
 Examples include:
@@ -109,7 +109,7 @@ The Material Flow visualization shows how different waste materials are distribu
 EcoMind AI can present useful sustainability-focused insights based on the recorded waste information.
 
 <p align="center">
-  <img src="documentation/screenshots/.png" width="850">
+  <img src="documentation/screenshots/sustainability.png" width="850">
 </p>
 
 These insights can help users understand:
