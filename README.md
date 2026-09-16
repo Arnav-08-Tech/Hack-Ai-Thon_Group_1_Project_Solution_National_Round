@@ -3,7 +3,7 @@
 ### Intelligent Waste Management System
 
 <p align="center">
-  <img src="screenshots/dashboard.png" width="850">
+  <img src="documentation/screenshots/dashboard.png" width="850">
 </p>
 
 <p align="center">
