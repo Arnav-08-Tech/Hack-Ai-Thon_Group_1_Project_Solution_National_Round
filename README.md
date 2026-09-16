@@ -321,8 +321,7 @@ It contains:
 **Team:** Cyber Guardians
 
 ---
----
-##Author
+## Author
  * Arnav Raj
 ---
 <p align="center">
